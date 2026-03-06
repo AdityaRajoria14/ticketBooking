@@ -16,32 +16,32 @@ Modular service-based architecture
 Java
 Gradle
 JSON (Local Storage)
+## 📂 Project Structure
 
-📂 Project Structure
+```
 ticketBooking
 │
 ├── app
 │   ├── build.gradle
 │   └── src
-│       ├── main
-│       │   └── java/ticket/booking
-│       │       ├── App.java
-│       │       ├── entities
-│       │       │   ├── Ticket.java
-│       │       │   ├── Train.java
-│       │       │   └── User.java
-│       │       ├── service
-│       │       │   ├── TrainService.java
-│       │       │   └── UserBookingService.java
-│       │       ├── util
-│       │       │   └── UserServiceUtil.java
-│       │       └── localDB
-│       │           ├── trains.json
-│       │           └── users.json
+│       ├── main/java/ticket/booking
+│       │   ├── App.java
+│       │   ├── entities
+│       │   │   ├── Ticket.java
+│       │   │   ├── Train.java
+│       │   │   └── User.java
+│       │   ├── service
+│       │   │   ├── TrainService.java
+│       │   │   └── UserBookingService.java
+│       │   ├── util
+│       │   │   └── UserServiceUtil.java
+│       │   └── localDB
+│       │       ├── trains.json
+│       │       └── users.json
 │       │
-│       └── test
-│           └── java/ticket/booking
-│               └── AppTest.java
+│       └── test/java/ticket/booking
+│           └── AppTest.java
+```
 📚 Key Concepts Used
 
 Object-Oriented Programming (OOP)
